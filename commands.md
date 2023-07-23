@@ -2,7 +2,8 @@
 git init => create a new local repository
 
 # Rename Branch
-git branch -m <name> [local] => rename the current branch
+git branch -m <new-name> => rename the current branch
+git branch -m <old-name> <new-name> => rename a different branch
 
 # Push New Branch To Origin
 git push origin :<old-branch-name> <new-branch-name> -u => delete old branch on origin and push the new branch. Upstream.
@@ -45,7 +46,7 @@ git show HEAD:customer.ts => shows the version of customer.ts of the last commit
 
 # Unstage Files
 git restore --staged . => unstage all the changes
-git restore --staged cutsomer.ts => unstage customer.ts
+git restore --staged customer.ts => unstage customer.ts
 
 # Discard Local Changes
 git restore <file-name> => copy file from staging to working directory
