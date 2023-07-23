@@ -26,3 +26,4 @@ git commit -am <message> => staging and committing with a single command
 # Remove Files
 git rm <file-name> => removes from working directory and staging area
 git rm --cached <file-name> => removes from stating area only
+[after both theset commands, changes should be commited]
