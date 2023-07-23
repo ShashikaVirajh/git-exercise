@@ -90,3 +90,39 @@ git shortlog -s => shows contributors with number of commits
 
 # Display Author of Lines
 git blame <file-name> => shows the author of each line in <file-name>
+
+
+
+# BRANCHING AND MERGING
+
+# Create New Branch
+git branch <branch-name> => creates a new branch called <branch-name>
+git checkout <branch-name> => swtiches to the <branch-name> branch
+git switch <branch-name> => swtiches to the <branch-name> branch
+git checkout -b <branch-name> => creates and switches to <branch-name>
+git switch -c <branch-name> => creates and switches to <branch-name>
+git branch -D <branch-name> => delete branch <branch-name>
+
+# Stashing
+git stash push -m <message> => creates a new stash with a message
+git stash list => lists all the stashes
+git stash show <number> => shows the stash in the given index
+git stash apply <number> => applies the given stash to working directory
+git stash drop <number> => deletes the stash in the given index
+git stash clear = deletes all the stashes
+
+# Merging
+git merge <branch-name> => merges <branch-name> branch into the current branch
+git merge --no-f <branch-name> => creates a merge commit 
+git merge --squash <branch-name> => performs a squash merge
+git merge --abort => aborts the merge
+
+# View Merged Branches
+git branch --merged => shows the merged branches
+git branch --no-merged => shows the unmerged branches
+
+# Rebasing 
+git rebase <branch-name> => changes the base of the current branch with origin <branch-name>
+
+# Cherry Picking
+git cherry-pick <commit-id> => picks the <commit-id> commit into current branch
