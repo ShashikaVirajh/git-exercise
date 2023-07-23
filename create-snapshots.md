@@ -126,3 +126,27 @@ git rebase <branch-name> => changes the base of the current branch with origin <
 
 # Cherry Picking
 git cherry-pick <commit-id> => picks the <commit-id> commit into current branch
+
+
+
+# COLLABORATION
+
+# Clone Repository
+git clone <url> => clones the repository related to <url>
+
+# Sync With Remote
+git fetch origin <branch-name> => fetches <branch-name> branch from origin
+git fetch | git fetch origin => fetches all commits from origin
+git pull => fetch origin + merge
+git push | git push origin <branch-name> => pushes local <branch-name> to origin
+
+# Sharing Branches
+git branch -r => shows remote tracking branches
+git branch -vv => shows local and remote tracking branches
+git push -u origin <branch-name> => pushes <branch-name> to origin
+git push -d origin <branch-name> => deletes <branch-name> from origin
+
+# Manage Remotes
+git remote => shows remote repos
+git remote add <remote-name> url => adds a new remote called <remote-name>
+git remote rm <remote-name> => deletes remote <remote-name>
