@@ -27,3 +27,30 @@ git commit -am <message> => staging and committing with a single command
 git rm <file-name> => removes from working directory and staging area
 git rm --cached <file-name> => removes from stating area only
 [after both theset commands, changes should be commited]
+
+# View Difference
+git diff => shows unstaged changes
+git diff --staged => shows staged changes
+
+# View Commit History
+git log => detailed commit history
+git log --oneline => one line commit history
+git log --reverse => reversed commit history
+
+# View Single Commit
+git show <commit-id> => shows the specific commit
+git show HEAD => shows the last commit
+git show HEAD~2 => shows two steps before the last commit
+git show HEAD:customer.ts => shows the version of customer.ts of the last commit
+
+# Unstage Files
+git restore --staged . => unstage all the changes
+git restore --staged cutsomer.ts => unstage customer.ts
+
+# Discard Local Changes
+git restore <file-name> => copy file from staging to working directory
+git restore . => copy all files from staging to working directory
+git clean -fd => remove all untracked files (files in working directory)
+
+# Restore Files To An Earlier Version
+git restore --source=HEAD~2 <file-name> => restore the file to 3 commits earlier
