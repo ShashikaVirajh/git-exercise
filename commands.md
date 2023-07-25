@@ -45,7 +45,7 @@
 
 ## Unstage Files
 - `git restore --staged .`: Unstage all the changes.
-- `git restore --staged customer.ts`: Unstage `customer.ts`.
+- `git restore --staged <file-name>`: Unstage <file-name>.
 
 ## Discard Local Changes
 - `git restore <file-name>`: Copy file from staging to the working directory.
