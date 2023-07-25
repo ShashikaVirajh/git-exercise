@@ -12,7 +12,7 @@ This cheatsheet provides a quick reference guide for the most commonly used Git 
 
 ---
 
-## Initialize Git & Manage Local Changes
+## 1. Initialize Git & Manage Local Changes
 This section covers commands to initialize Git, manage and view local changes.
 
 ### Clone Repository
@@ -72,7 +72,7 @@ This section covers commands to initialize Git, manage and view local changes.
 
 ---
 
-## History Inspection & Comparisons
+## 2. History Inspection & Comparisons
 This section includes commands to inspect the commit history and compare different commits.
 
 ### View The History
@@ -98,7 +98,7 @@ This section includes commands to inspect the commit history and compare differe
 
 ---
 
-## Branching, Merging & Stashing
+## 3. Branching, Merging & Stashing
 This section explains how to handle branching, merging, and stashing.
 
 ### Create New Branch
@@ -126,7 +126,8 @@ This section explains how to handle branching, merging, and stashing.
 
 ---
 
-## Collaboration and Remote Repositories
+
+## 4. Collaboration and Remote Repositories
 This section includes commands to manage remote repositories and collaborate with others.
 
 ### Set Up Remotes
@@ -141,7 +142,7 @@ This section includes commands to manage remote repositories and collaborate wit
 
 ---
 
-## Troubleshooting and Miscellaneous Commands
+## 5. Troubleshooting and Miscellaneous Commands
 This section includes troubleshooting tips and miscellaneous commands.
 
 ### Find A Bug
