@@ -1,12 +1,15 @@
 # Initialize Git & Manage Local Changes
 
+## Clone Repository
+- `git clone <url>`: Clones the repository related to `<url>`.
+
 ## Initialize Git
 - `git init`: Create a new local repository.
 
 ## Stage Files
 - `git add <file-name>`: Stage a single file.
-- `git add .`: Stage multiple files.
-- `git add *.ts`: Stage files with a pattern.
+- `git add .`: Stage all the files.
+- `git add *.ts`: Stage all the files with a pattern.
 
 ## View the Status
 - `git status`: View full status.
@@ -32,6 +35,7 @@
 - `git log`: View detailed commit history.
 - `git log --oneline`: View one-line commit history.
 - `git log --reverse`: View reversed commit history.
+- `git log --graph --oneline`: View one-line commit history as a graph.
 
 ## View Single Commit
 - `git show <commit-id>`: Show a specific commit.
@@ -62,7 +66,7 @@
 - `git log -<number>`: Shows the last `<number>` of commits. 
 - `git log --author="<author-name>"`: Shows commits of `<author-name>`.
 - `git log <file-name>`: Commits that are related to `<file-name>`.
-- 
+
 ## Compare Commits
 - `git diff HEAD~2 HEAD`: Shows the changes between two commits.
 - `git diff HEAD~2 HEAD <file-name>`: Shows the changes between two commits related to `<file-name>`.
@@ -118,9 +122,6 @@
 
 # Collaboration and Remote Repositories
 
-## Clone Repository
-- `git clone <url>`: Clones the repository related to `<url>`.
-
 ## Sync With Remote
 - `git fetch origin <branch-name>`: Fetches `<branch-name>` branch from origin.
 - `git fetch` or `git fetch origin`: Fetches all commits from origin.
@@ -143,5 +144,5 @@
 
 - `git reset --hard HEAD`: Discards all local changes and resets to the latest commit.
 - `git reflog`: Shows a list of all actions performed in the repository.
-- `git bisect`: Used to find commits that introduce bugs
+- `git bisect`:  Performs a binary search on the commit history to find the commit that introduced a bug.
 - `git grep <text>`: Searches through the application source code.
