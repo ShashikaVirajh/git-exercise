@@ -193,7 +193,9 @@
 
 📬 Contact Details
 
+<div style="font-size:0.8em; color: green;">
 + I'm always here to assist you in navigating the complex world of Git. Remember, it's all about learning together - no charges involved. So don't hesitate to get in touch!
+</div>
 
 
 📧 Email: shashikasvka@gmail.com
