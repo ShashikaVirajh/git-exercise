@@ -14,6 +14,7 @@
 
 ---
 
+
 ## 1. 🏁 Initialize Git & Manage Local Changes
 
 > This section covers commands to initialize Git, manage and view local changes.
