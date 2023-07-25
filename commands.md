@@ -4,11 +4,12 @@
 
 ## 📚 Table of Contents
 
-1. [🏁 Initialize Git & Manage Local Changes](#1-initialize-git--manage-local-changes)
-2. [🕵️‍♂️ History Inspection & Comparisons](#2-history-inspection--comparisons)
-3. [🌴 Branching, Merging & Stashing](#3-branching-merging--stashing)
-4. [🤝 Collaboration and Remote Repositories](#4-collaboration-and-remote-repositories)
-5. [🔧 Troubleshooting and Miscellaneous Commands](#5-troubleshooting-and-miscellaneous-commands)
+1. [Initialize Git & Manage Local Changes](#initialize-git--manage-local-changes)
+2. [History Inspection & Comparisons](#history-inspection--comparisons)
+3. [Branching, Merging & Stashing](#branching-merging--stashing)
+4. [Collaboration and Remote Repositories](#collaboration-and-remote-repositories)
+5. [Troubleshooting and Miscellaneous Commands](#troubleshooting-and-miscellaneous-commands)
+
 
 ---
 
