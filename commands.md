@@ -193,7 +193,10 @@
 
 📬 Contact Details
 
-> I'm available through email or WhatsApp, always ready to help you navigate the complex world of Git. Remember, it's all about learning together, no charges involved, so don't hesitate to reach out!
++ I'm always here to assist you in navigating the complex world of Git. Remember, it's all about learning together - no charges involved. So don't hesitate to get in touch!
+
 
 📧 Email: shashikasvka@gmail.com
-📞 Whatsapp: +94 713980787
+📞 WhatsApp: +94 713980787
+
+💻 Happy Coding!
