@@ -145,30 +145,30 @@
 > This section includes commands to manage remote repositories and collaborate with others.
 
 - **Add Remote Repository**
-  - `git remote add <name> <url>` => Add a new remote repository
+  - `git remote add <origin> <url>` => Add a new remote repository
   - `git remote -v` => List all remote repositories
-  - `git remote remove <name>` => Removes a remote repository
+  - `git remote remove <origin>` => Removes a remote repository
 
 - **Fetch Data From Remote Repository**
-  - `git fetch <name>` => Fetches data from a remote repository
+  - `git fetch <origin>` => Fetches data from a remote repository
 
 - **Pull Changes**
-  - `git pull <name> <branch-name>` => Pulls changes from a remote branch
-  - `git pull --rebase <name> <branch-name>` => Performs a rebase instead of a merge
+  - `git pull <origin> <branch-name>` => Pulls changes from a remote branch
+  - `git pull --rebase <origin> <branch-name>` => Performs a rebase instead of a merge
 
 - **Push Changes**
-  - `git push <name> <branch-name>` => Pushes changes to a remote branch
-  - `git push <name> --delete <branch-name>` => Deletes a remote branch
+  - `git push <origin> <branch-name>` => Pushes changes to a remote branch
+  - `git push <origin> --delete <branch-name>` => Deletes a remote branch
 
 - **Tracking Branches**
-  - `git branch -u <name>/<branch-name>` => Sets an upstream branch
+  - `git branch -u <origin> <branch-name>` => Sets an upstream branch
   - `git branch -vv` => Shows tracking branches
 
 - **Tagging**
   - `git tag <tag-name>` => Creates a lightweight tag
   - `git tag -a <tag-name>` => Creates an annotated tag
-  - `git push <name> <tag-name>` => Pushes a tag
-  - `git push <name> --tags` => Pushes all there are no implementation for table of contents.
+  - `git push <origin> <tag-name>` => Pushes a tag
+  - `git push <origin> --tags` => Pushes all there are no implementation for table of contents.
 
 ---
 
