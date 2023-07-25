@@ -34,15 +34,15 @@
   - `git status -s` => View short status
 
 - **Commit Staged Files**
-  - `git commit -m <message>` => Commit with a one-line message
-  - `git commit => Open the editor to type a long message
+  - `git commit -m <message>` => Commits with a one-line message
+  - `git commit => Opens the default editor to type a commit message
 
 - **Commit By Skipping the Staging Area**
-  - `git commit -am <message>` => Stage and commit with a single command
+  - `git commit -am <message>` => Stages and commit with a single command
 
 - **Remove Files**
-  - `git rm <file-name>` => Remove a file from the working directory and staging area
-  - `git rm --cached <file-name>` => Remove a file from the staging area only
+  - `git rm <file-name>` => Removes a file from both the working directory and the staging area
+  - `git rm --cached <file-name>` => Removes a file from the staging area only
 
 - **View Difference**
   - `git diff` => Show unstaged changes
@@ -62,7 +62,7 @@
 
 - **Unstage Files**
   - `git restore --staged .` => Unstage all the changes
-  - `git restore --staged <file-name>` => Unstage <file-name>
+  - `git restore --staged <file-name>` => Unstage changes related to <file-name>
 
 - **Discard Local Changes**
   - `git restore <file-name>` => Copy file from staging to the working directory
@@ -113,7 +113,7 @@
 
 - **Rename Branch**
   - `git branch -m <new-name>` => Rename the current branch to <new-name>
-  - `git branch -m <old-name>` <new-name> => Rename a branch from <old-name> to <new-name>
+  - `git branch -m <old-name> <new-name>` <new-name> => Rename a branch from <old-name> to <new-name>
 
 - **Stashing**
   - `git stash push -m <message>` => Creates a new stash with a message
@@ -163,12 +163,6 @@
 - **Tracking Branches**
   - `git branch -u <origin> <branch-name>` => Sets an upstream branch
   - `git branch -vv` => Shows tracking branches
-
-- **Tagging**
-  - `git tag <tag-name>` => Creates a lightweight tag
-  - `git tag -a <tag-name>` => Creates an annotated tag
-  - `git push <origin> <tag-name>` => Pushes a tag
-  - `git push <origin> --tags` => Pushes all there are no implementation for table of contents.
 
 ---
 
