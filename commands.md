@@ -81,7 +81,7 @@
 - **View The History**
   - `git log --stat` => Shows the list of modified files
   - `git log --patch` => Show the modified files with changes
-  - 
+  
 - **Filter History**
   - `git log -<number>` => Shows the last <number> of commits
   - `git log --author=<author-name>` => Shows commits of <author-name>
@@ -113,7 +113,7 @@
 
 - **Rename Branch**
   - `git branch -m <new-name>` => Rename the current branch to <new-name>
-  - `git branch -m <old-name> <new-name> => Rename a branch from <old-name> to <new-name>
+  - `git branch -m <old-name>` <new-name> => Rename a branch from <old-name> to <new-name>
 
 - **Stashing**
   - `git stash push -m <message>` => Creates a new stash with a message
@@ -198,7 +198,7 @@
 
 📬 Contact Details
 
-> If you have any issues with git, I'm happy to help. It is free of charge.
+> I'm available through email or WhatsApp, always ready to help you navigate the complex world of Git. Remember, it's all about learning together, no charges involved, so don't hesitate to reach out!
 
 📧 Email: shashikasvka@gmail.com
 📞 Whatsapp: +94 713980787
