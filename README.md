@@ -112,6 +112,9 @@
   - `git switch -c <branch-name>` => Creates and switches to <branch-name>
   - `git branch -D <branch-name>` D=> eletes branch <branch-name>
 
+- **View All Branches**
+  - `git branch` => Lists all local branches
+
 - **Rename Branch**
   - `git branch -m <new-name>` => Rename the current branch to <new-name>
   - `git branch -m <old-name> <new-name>` <new-name> => Rename a branch from <old-name> to <new-name>
@@ -164,6 +167,12 @@
 - **Tracking Branches**
   - `git branch -u <origin> <branch-name>` => Sets an upstream branch
   - `git branch -vv` => Shows tracking branches
+
+- **View Remote Branches**
+  - `git branch -r` => Lists all remote branches
+
+- **View All Local and Remote Branches**
+  - `git branch -a` => Lists all local and remote branches
 
 ---
 
