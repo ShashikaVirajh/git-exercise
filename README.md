@@ -1,6 +1,6 @@
 # 🚀 Git Cheatsheet
 
-> This cheatsheet provides a quick reference guide for the most commonly used Git commands. Happy coding! 👨‍💻
+> This cheatsheet provides a quick reference guide for the most commonly used Git commands, Happy coding! 👨‍💻!
 
 ## 📚 Table of Contents
 
@@ -20,7 +20,7 @@
 > This section covers commands to initialize Git, manage and view local changes.
 
 - **Clone Repository**
-  - `git clone <url>` => Clones the repository related to <url>
+  - `git clone <url>` => Clones the repository located at <url>
   
 - **Initialize Git**
   - `git init` => Create a new local repository
@@ -36,14 +36,17 @@
 
 - **Commit Staged Files**
   - `git commit -m <message>` => Commits with a one-line message
-  - `git commit => Opens the default editor to type a commit message
+  - `git commit` => Opens the default editor to type a commit message
 
 - **Commit By Skipping the Staging Area**
   - `git commit -am <message>` => Stages and commit with a single command
 
+- **Revert Commit**
+  - `git revert <commit-id>` => Reverts the changes made in the specified commit and creates a new commit
+
 - **Remove Files**
   - `git rm <file-name>` => Removes a file from both the working directory and the staging area
-  - `git rm --cached <file-name>` => Removes a file from the staging area only
+  - `git rm --cached <file-name>` => Removes a file from the staging area but keeps it in the working directory.
 
 - **View Difference**
   - `git diff` => Show unstaged changes
@@ -66,8 +69,8 @@
   - `git restore --staged <file-name>` => Unstage changes related to <file-name>
 
 - **Discard Local Changes**
-  - `git restore <file-name>` => Copy file from staging to the working directory
-  - `git restore .` => Copy all files from staging to the working directory
+  - `git restore <file-name>` => Copies file from staging to the working directory
+  - `git restore .` => Restores all files in the working directory to their state in the last commit
   - `git clean -fd` => Remove all untracked files (files in the working directory)
 
 - **Restore Files To An Earlier Version**
@@ -110,17 +113,19 @@
   - `git branch <branch-name>` => Creates a new branch named <branch-name>
   - `git switch <branch-name>` => Switches to the <branch-name> branch
   - `git switch -c <branch-name>` => Creates and switches to <branch-name>
-  - `git branch -D <branch-name>` D=> eletes branch <branch-name>
 
-- **View All Branches**
+- **Delete Local Branch**
+  - `git branch -D <branch-name>` => Deletes branch <branch-name>
+
+- **View Local Branches**
   - `git branch` => Lists all local branches
 
 - **Rename Branch**
   - `git branch -m <new-name>` => Rename the current branch to <new-name>
-  - `git branch -m <old-name> <new-name>` <new-name> => Rename a branch from <old-name> to <new-name>
+  - `git branch -m <old-name> <new-name>` => Renames a branch from <old-name> to <new-name>
 
 - **Stashing**
-  - `git stash push -m <message>` => Creates a new stash with a message
+  - `git stash push -m <message>` => Creates a new stash with a message and saves it for later use
   - `git stash list` => Lists all the stashes
   - `git stash show <number>` => Shows the stash in the given index
   - `git stash apply <number>` => Applies the given stash to the working directory
@@ -149,7 +154,7 @@
 > This section includes commands to manage remote repositories and collaborate with others.
 
 - **Add Remote Repository**
-  - `git remote add <origin> <url>` => Add a new remote repository
+  - `git remote add <origin> <url>` => Adds a new remote repository
   - `git remote -v` => List all remote repositories
   - `git remote remove <origin>` => Removes a remote repository
 
@@ -171,7 +176,7 @@
 - **View Remote Branches**
   - `git branch -r` => Lists all remote branches
 
-- **View All Local and Remote Branches**
+- **View Local and Remote Branches**
   - `git branch -a` => Lists all local and remote branches
 
 ---
