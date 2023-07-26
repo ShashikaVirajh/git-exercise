@@ -193,7 +193,7 @@
 
 📬 Contact Details
 
-+ Facing any Git puzzles? Don't sweat it. I'm here to help, no strings attached. Let's decode those issues together!
+> Facing any Git puzzles? Don't sweat it. I'm here to help, no strings attached. Let's decode those issues together!
 
 📧 Email: shashikasvka@gmail.com
 📞 WhatsApp: +94 713980787
