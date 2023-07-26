@@ -23,7 +23,7 @@
   - `git clone <url>` => Clones the repository located at `<url>`
   
 - **Initialize Git**
-  - `git init` => Create a new local repository
+  - `git init` => Creates a new local repository
   
 - **Stage Files**
   - `git add <file-name>` => Stage a single file
