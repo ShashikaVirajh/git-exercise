@@ -28,7 +28,7 @@
 - **Stage Files**
   - `git add <file-name>` => Stage a single file
   - `git add .` => Stage all the files
-  - `git add *.ts` => Stage all the files with a pattern
+  - `git add <file-type>` => Stage all the files with a pattern `(*.ts | *.js)`
 
 - **View the Status**
   - `git status` => View full status
