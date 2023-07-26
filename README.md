@@ -20,7 +20,7 @@
 > This section covers commands to initialize Git, manage and view local changes.
 
 - **Clone Repository**
-  - `git clone <url>` => Clones the repository located at <url>
+  - `git clone <url>` => Clones the repository located at `<url>`
   
 - **Initialize Git**
   - `git init` => Create a new local repository
@@ -62,11 +62,11 @@
   - `git show <commit-id>` => Show a specific commit
   - `git show HEAD` => Show the last commit
   - `git show HEAD~2` => Show two steps before the last commit
-  - `git show HEAD~2:<file-name>` => Shows <file-name> related to 3rd latest commit
+  - `git show HEAD~2:<file-name>` => Shows `<file-name>` related to 3rd latest commit
 
 - **Unstage Files**
   - `git restore --staged .` => Unstage all the changes
-  - `git restore --staged <file-name>` => Unstage changes related to <file-name>
+  - `git restore --staged <file-name>` => Unstage changes related to `<file-name>`
 
 - **Discard Local Changes**
   - `git restore <file-name>` => Copies file from staging to the working directory
@@ -87,13 +87,13 @@
   - `git log --patch` => Show the modified files with changes
   
 - **Filter History**
-  - `git log -<number>` => Shows the last <number> of commits
-  - `git log --author=<author-name>` => Shows commits of <author-name>
-  - `git log <file-name>` => Commits that are related to <file-name>
+  - `git log -<number>` => Shows the last `<number>` of commits
+  - `git log --author=<author-name>` => Shows commits of `<author-name>`
+  - `git log <file-name>` => Commits that are related to `<file-name>`
 
 - **Compare Commits**
   - `git diff HEAD~2 HEAD` => Shows the changes between two commits
-  - `git diff HEAD~2 HEAD <file-name>` => Shows the changes between two commits related to <file-name>
+  - `git diff HEAD~2 HEAD <file-name>` => Shows the changes between two commits related to `<file-name>`
 
 - **Display Contributors**
   - `git shortlog` => Shows contributors
@@ -101,7 +101,7 @@
   - `git shortlog -s` => Shows contributors with the number of commits
 
 - **Display Author of Lines**
-  - `git blame <file-name>` => Shows the author of each line in <file-name>
+  - `git blame <file-name>` => Shows the author of each line in `<file-name>`
 
 ---
 
@@ -110,19 +110,19 @@
 > This section explains how to handle branching, merging, and stashing.
 
 - **Create New Branch**
-  - `git branch <branch-name>` => Creates a new branch named <branch-name>
-  - `git switch <branch-name>` => Switches to the <branch-name> branch
-  - `git switch -c <branch-name>` => Creates and switches to <branch-name>
+  - `git branch <branch-name>` => Creates a new branch named `<branch-name>`
+  - `git switch <branch-name>` => Switches to the `<branch-name>` branch
+  - `git switch -c <branch-name>` => Creates and switches to `<branch-name>`
 
 - **Delete Local Branch**
-  - `git branch -D <branch-name>` => Deletes branch <branch-name>
+  - `git branch -D <branch-name>` => Deletes branch `<branch-name>`
 
 - **View Local Branches**
   - `git branch` => Lists all local branches
 
 - **Rename Branch**
-  - `git branch -m <new-name>` => Rename the current branch to <new-name>
-  - `git branch -m <old-name> <new-name>` => Renames a branch from <old-name> to <new-name>
+  - `git branch -m <new-name>` => Rename the current branch to `<new-name>`
+  - `git branch -m <old-name> <new-name>` => Renames a branch from `<old-name>` to `<new-name>`
 
 - **Stashing**
   - `git stash push -m <message>` => Creates a new stash with a message and saves it for later use
@@ -133,7 +133,7 @@
   - `git stash clear` => Deletes all the stashes
 
 - **Merging**
-  - `git merge <branch-name>` => Merges <branch-name> branch into the current branch
+  - `git merge <branch-name>` => Merges `<branch-name>` branch into the current branch
   - `git merge --no-ff <branch-name>` => Creates a merge commit
   - `git merge --squash <branch-name>` => Performs a squash merge
   - `git merge --abort` => Aborts the merge
